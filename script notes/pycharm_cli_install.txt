@@ -1,5 +1,4 @@
-wget -O /tmp/pycharm.tar.gz "https://download.jetbrains.com/python/pycharm-community-2020.2.1.tar.gz?_ga=1.2.3.4"
-# above string ga= number seems to accept anything
+wget -O /tmp/pycharm.tar.gz "https://download.jetbrains.com/python/pycharm-community-2020.2.1.tar.gz"
 
 tar -xf /tmp/pycharm.tar.gz --directory /opt
 ln -s "/opt/pycharm-community-2020.2.1/bin/pycharm.sh" /usr/bin/pycharm
