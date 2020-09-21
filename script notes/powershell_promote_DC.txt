@@ -1,0 +1,4 @@
+$domainName = "testdomain.kpm"
+$domainAdminUser = "administrator"
+$domainAdminPassword = "Password1"
+Install-ADDSForest -DomainName $domainName -SafeModeAdministratorPassword $domainAdminPassword -InstallDns -WhatIf
