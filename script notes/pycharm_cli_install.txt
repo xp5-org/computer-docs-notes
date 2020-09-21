@@ -1,4 +1,6 @@
-wget -O /tmp/pycharm.tar.gz "https://download.jetbrains.com/python/pycharm-community-2020.2.1.tar.gz?_ga=2.131651660.2135403262.1599705395-775009541.1598405310"
+wget -O /tmp/pycharm.tar.gz "https://download.jetbrains.com/python/pycharm-community-2020.2.1.tar.gz?_ga=1.2.3.4"
+# above string ga= number seems to accept anything
+
 tar -xf /tmp/pycharm.tar.gz --directory /opt
 ln -s "/opt/pycharm-community-2020.2.1/bin/pycharm.sh" /usr/bin/pycharm
 apt-get install -y python3-distutils python3-apt
