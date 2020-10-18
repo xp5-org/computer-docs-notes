@@ -1,3 +1,5 @@
+# These are steps to install pycharm on ubuntu , should work on ubuntu 18, 19 20
+
 wget -O /tmp/pycharm.tar.gz "https://download.jetbrains.com/python/pycharm-community-2020.2.1.tar.gz"
 
 tar -xf /tmp/pycharm.tar.gz --directory /opt
