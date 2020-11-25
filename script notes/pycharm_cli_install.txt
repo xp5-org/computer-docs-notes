@@ -2,9 +2,9 @@
 
 wget -O /tmp/pycharm.tar.gz "https://download.jetbrains.com/python/pycharm-community-2020.2.1.tar.gz"
 
-tar -xf /tmp/pycharm.tar.gz --directory /opt
-ln -s "/opt/pycharm-community-2020.2.1/bin/pycharm.sh" /usr/bin/pycharm
-apt-get install -y python3-distutils python3-apt
+sudo tar -xf /tmp/pycharm.tar.gz --directory /opt
+sudo ln -s "/opt/pycharm-community-2020.2.1/bin/pycharm.sh" /usr/bin/pycharm
+sudo apt-get install -y python3-distutils python3-apt
 
 # create menu shortcut
-echo 'W0Rlc2t0b3AgRW50cnldClZlcnNpb249MS4wClR5cGU9QXBwbGljYXRpb24KTmFtZT1QeUNoYXJtCkljb249L29wdC9weWNoYXJtLWNvbW11bml0eS0yMDIwLjIuMS9iaW4vcHljaGFybS5wbmcKRXhlYz0iL29wdC9weWNoYXJtLWNvbW11bml0eS0yMDIwLjIuMS9iaW4vcHljaGFybS5zaCIgJWYKQ29tbWVudD1QeUNoYXJtCkNhdGVnb3JpZXM9RGV2ZWxvcG1lbnQ7SURFOwpUZXJtaW5hbD1mYWxzZQpTdGFydHVwV01DbGFzcz1qZXRicmFpbnMtcHljaGFybQ==' | base64 --decode > /usr/share/applications/pycharm.desktop
+sudo echo 'W0Rlc2t0b3AgRW50cnldClZlcnNpb249MS4wClR5cGU9QXBwbGljYXRpb24KTmFtZT1QeUNoYXJtCkljb249L29wdC9weWNoYXJtLWNvbW11bml0eS0yMDIwLjIuMS9iaW4vcHljaGFybS5wbmcKRXhlYz0iL29wdC9weWNoYXJtLWNvbW11bml0eS0yMDIwLjIuMS9iaW4vcHljaGFybS5zaCIgJWYKQ29tbWVudD1QeUNoYXJtCkNhdGVnb3JpZXM9RGV2ZWxvcG1lbnQ7SURFOwpUZXJtaW5hbD1mYWxzZQpTdGFydHVwV01DbGFzcz1qZXRicmFpbnMtcHljaGFybQ==' | base64 --decode > /usr/share/applications/pycharm.desktop
